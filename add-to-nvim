@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+main() {
+	(
+		cd "$(dirname "$0")" || exit 1
+
+		tree-sitter generate
+		tree-sitter build
+
+		mkdir -p "$HOME/.local/share/nvim/site/parser"
+		mkdir -p "$HOME/.config/nvim/queries/maxi_customlang"
+
+		cp parser.so "$HOME/.local/share/nvim/site/parser/maxi_customlang.so"
+		cp highlights.scm "$HOME/.config/nvim/queries/maxi_customlang/highlights.scm"
+	)
+}
+
+main "$@"
