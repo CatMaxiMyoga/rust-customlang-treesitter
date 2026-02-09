@@ -2,7 +2,7 @@
   "name": "tree-sitter-customlang",
   "version": "0.1.0",
   "description": "Customlang grammar for tree-sitter",
-  "repository": "https://github.com/catmaximyoga/rust-customlang/tree/master/tree-sitter",
+  "repository": "https://github.com/catmaximyoga/rust-customlang-treesitter",
   "license": "MIT",
   "author": {
     "name": "Maxi Myoga"

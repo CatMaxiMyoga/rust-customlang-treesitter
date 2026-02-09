@@ -21,7 +21,7 @@
       }
     ],
     "links": {
-      "repository": "https://github.com/CatMaxiMyoga/rust-customlang/tree/master/tree-sitter"
+      "repository": "https://github.com/CatMaxiMyoga/rust-customlang-treesitter"
     }
   },
   "bindings": {

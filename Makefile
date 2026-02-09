@@ -3,7 +3,7 @@ $(error Windows is not supported)
 endif
 
 LANGUAGE_NAME := tree-sitter-customlang
-HOMEPAGE_URL := https://github.com/catmaximyoga/rust-customlang/tree/master/tree-sitter
+HOMEPAGE_URL := https://github.com/catmaximyoga/rust-customlang-treesitter
 VERSION := 0.1.0
 
 # repository
